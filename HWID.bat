@@ -16,5 +16,6 @@ wmic path win32_computersystemproduct get uuid >> C:\Users\%USERNAME%\AppData\Lo
 wmic baseboard get serialnumber
 wmic baseboard get serialnumber >> C:\Users\%USERNAME%\AppData\Local\HWID.txt
 echo =============================================================
+wmic baseboard get product,Manufacturer,version,serialnumber
 systeminfo | findstr /c:"BIOS Version"
 pause
