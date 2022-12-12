@@ -5,4 +5,4 @@ put HWIDlogger in
 ```
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 ```
-i
+![](https://i.imgur.com/r4YWHKv.png)
